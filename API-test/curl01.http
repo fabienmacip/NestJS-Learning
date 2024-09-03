@@ -1,0 +1,25 @@
+POST http://localhost:3000/auth/login
+content-type: application/json
+
+{
+    "email": "fabien.macip@gmail.com",
+    "password": "totototo"
+}
+###
+GET http://localhost:3000/auth
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTBkeDhtZTgwMDAwMDhtaWhjNWlnYnFlIiwiaWF0IjoxNzI1MzY5NDgwLCJleHAiOjE3Mjc5NjE0ODB9.aqZHvi_mukjwtEA9oEVlPMv14GZldUaZZwbLHx6AqPg
+
+###
+POST http://localhost:3000/auth/login
+content-type: application/json
+
+{
+    "email": "macip.conseil.finance@gmail.com",
+    "password": "totototo"
+}
+###
+GET http://localhost:3000/users/cm0dx8me8000008mihc5igbqe
+###
+GET http://localhost:3000/users
+###
