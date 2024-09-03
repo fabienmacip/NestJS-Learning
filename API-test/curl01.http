@@ -8,7 +8,7 @@ content-type: application/json
 ###
 GET http://localhost:3000/auth
 content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTBkeDhtZTgwMDAwMDhtaWhjNWlnYnFlIiwiaWF0IjoxNzI1MzY5NDgwLCJleHAiOjE3Mjc5NjE0ODB9.aqZHvi_mukjwtEA9oEVlPMv14GZldUaZZwbLHx6AqPg
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjbTBtaGE2dWgwMDAwNXJnaHlpN21wb2hkIiwiaWF0IjoxNzI1MzcwODk0LCJleHAiOjE3Mjc5NjI4OTR9.OVBu5lc_QfOvg1-oFBuQZnUX-yfdRCggC7oTmwaka3c
 
 ###
 POST http://localhost:3000/auth/login
@@ -17,6 +17,15 @@ content-type: application/json
 {
     "email": "macip.conseil.finance@gmail.com",
     "password": "totototo"
+}
+###
+POST http://localhost:3000/auth/register
+content-type: application/json
+
+{
+    "email": "fabien.macip.lui5@gmail.com",
+    "password": "totototi",
+    "firstname": "michel"
 }
 ###
 GET http://localhost:3000/users/cm0dx8me8000008mihc5igbqe
